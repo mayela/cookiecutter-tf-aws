@@ -1,3 +1,3 @@
 provider "aws" {
-  region = {{cookiecutter.aws_region}}
+  region = "{{cookiecutter.aws_region}}"
 }

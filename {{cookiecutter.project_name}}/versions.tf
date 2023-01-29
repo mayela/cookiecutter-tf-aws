@@ -1,10 +1,10 @@
 terraform {
-  required_version = {{cookiecutter.terraform_version}}
+  required_version = "{{cookiecutter.terraform_version}}"
 
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = {{cookiecutter.aws_version}}
+      version = "{{cookiecutter.aws_version}}"
     }
   }
 }
